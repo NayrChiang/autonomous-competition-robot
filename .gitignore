@@ -1,0 +1,72 @@
+# Arduino/ESP32 Build Files
+build/
+*.hex
+*.elf
+*.bin
+*.map
+
+# Arduino IDE
+.arduino/
+*.preproc.ino
+*.ino.bak
+
+# Compiled Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Preprocessor output
+*.i
+*.ii
+
+# Libraries
+*.a
+*.la
+*.lo
+
+# Shared objects
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# WiFi credentials (if stored separately)
+wifi_config.h
+secrets.h
+
+# Backup files
+*.backup
+*~
+
